@@ -63,7 +63,7 @@
     </dependency>
     <dependency>
       <name>site</name>
-      <version>1.0/*</version>
+      <version>${siteModuleVersion}/*</version>
     </dependency>
     <dependency>
       <name>virtual-uri</name>
