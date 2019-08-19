@@ -13,8 +13,8 @@
   <name>Google Sitemap Forge Module</name>
 
   <scm>
-    <connection>scm:git:ssh://git@github.com:magnolia-community/google-sitemap.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:magnolia-community/google-sitemap.git</developerConnection>
+    <connection>scm:git:git@github.com:magnolia-community/google-sitemap.git</connection>
+    <developerConnection>scm:git:git@github.com:magnolia-community/google-sitemap.git</developerConnection>
     <url>https://github.com/magnolia-community/google-sitemap</url>
     <tag>google-sitemap-3.0</tag>
   </scm>
