@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="config" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:content</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:lockable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>c655c31a-52b9-4fdb-930b-a29d6b77b206</sv:value>
+  </sv:property>
+  <sv:property sv:name="changeFrequency" sv:type="String">
+    <sv:value>weekly</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2012-04-20T08:48:39.351+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2014-07-10T15:13:07.793+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="priority" sv:type="Double">
+    <sv:value>0.5</sv:value>
+  </sv:property>
+</sv:node>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="siteMap" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:contentNode</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>81fd9af4-b2ab-4f83-b03b-a5107af5a80a</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2013-10-28T22:24:16.868+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2013-10-31T14:49:10.436+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="fields">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d52a0efb-e056-4343-8eb9-93f8ba209bee</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+      <sv:value>2013-10-28T22:24:42.255+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2013-10-31T15:32:49.489+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="mgnl-googleSiteMapDisplayName">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>34a86ae4-1504-4962-8ea4-feb3357c86a4</sv:value>
+      </sv:property>
+      <sv:property sv:name="class" sv:type="String">
+        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2013-10-28T22:25:04.321+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-12-13T15:28:24.924+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>mgnl:googleSiteMapDisplayName</sv:value>
+      </sv:property>
+      <sv:property sv:name="required" sv:type="String">
+        <sv:value>true</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="mgnl-googleSiteMapURL">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>657e9519-0362-4f27-aa57-07254d6f3d42</sv:value>
+      </sv:property>
+      <sv:property sv:name="class" sv:type="String">
+        <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2013-10-31T15:32:49.490+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-12-13T15:28:46.135+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>mgnl:googleSiteMapURL</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="template">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3bb9c307-52cf-4543-a9ab-40bd6a6b4e38</sv:value>
+      </sv:property>
+      <sv:property sv:name="class" sv:type="String">
+        <sv:value>info.magnolia.module.googlesitemap.app.field.TemplateStaticFieldDefinition</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2013-10-31T03:03:09.970+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2013-11-01T12:26:34.372+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>mgnl:template</sv:value>
+      </sv:property>
+      <sv:property sv:name="value" sv:type="String">
+        <sv:value>google-sitemap:pages/siteMapsConfiguration</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="mgnl-googleSiteMapIncludeVirtualUri">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c7c9875a-c070-4fa7-b533-593d136f8757</sv:value>
+      </sv:property>
+      <sv:property sv:name="class" sv:type="String">
+        <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2013-10-31T03:00:41.636+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-12-13T15:29:11.718+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>mgnl:googleSiteMapIncludeVirtualUri</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="mgnl-googleSiteMapType">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a849ea24-496b-4bcc-a0ca-41aed7495fe6</sv:value>
+      </sv:property>
+      <sv:property sv:name="class" sv:type="String">
+        <sv:value>info.magnolia.ui.form.field.definition.SelectFieldDefinition</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2013-10-31T15:32:49.490+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+        <sv:value>2013-11-05T19:20:47.361+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-12-13T15:29:32.702+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>mgnl:googleSiteMapType</sv:value>
+      </sv:property>
+      <sv:node sv:name="options">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>86088ade-cfc2-41e8-942a-8b8284d41161</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="String">
+          <sv:value>2004-11-03T08:52:04.490+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+          <sv:value>2013-11-05T19:21:58.315+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2016-12-13T15:29:32.702+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:node sv:name="standard">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>89a777e1-11a2-4ad4-9f13-07b6f3e2f8e1</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="String">
+            <sv:value>2004-11-03T08:53:21.660+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+            <sv:value>2008-06-24T17:08:16.761+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2016-12-13T15:29:32.702+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="selected" sv:type="String">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="value" sv:type="String">
+            <sv:value>Standard</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="mobile">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c378cf0a-74e5-4bbe-851c-db088a41b8dd</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:created" sv:type="String">
+            <sv:value>2004-11-03T08:53:21.660+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+            <sv:value>2008-06-24T17:08:16.761+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+            <sv:value>2016-12-13T15:29:32.702+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="value" sv:type="String">
+            <sv:value>Mobile</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="virtualURIMapping" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:content</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:lockable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>e6ff7cfb-c977-4286-a053-93068898aa03</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2013-11-25T17:13:59.967+01:00</sv:value>
+  </sv:property>
+  <sv:node sv:name="messages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>4d13f440-1882-4cd1-93ac-43ae084f3149</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.cms.beans.config.RegexpVirtualURIMapping</sv:value>
+    </sv:property>
+    <sv:property sv:name="fromURI" sv:type="String">
+      <sv:value>/\.magnolia/pages/messages\.(.*)\.js</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="String">
+      <sv:value>2004-11-02T15:34:20.479+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2008-06-12T18:39:18.967+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="toURI" sv:type="String">
+      <sv:value>forward:/.magnolia/pages/messages.js?locale=$1</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="dialogsFileThumbnail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>81cd2b2b-4972-495b-81ac-a3fa13b551b6</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.cms.beans.config.DefaultVirtualURIMapping</sv:value>
+    </sv:property>
+    <sv:property sv:name="fromURI" sv:type="String">
+      <sv:value>/.magnolia/dialogs/fileThumbnail.jpg</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="String">
+      <sv:value>2004-11-02T15:34:19.349+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="String">
+      <sv:value>2004-11-02T15:34:19.357+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="toURI" sv:type="String">
+      <sv:value>forward:/admintemplates/dialogs/fileThumbnail.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

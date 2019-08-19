@@ -1,0 +1,7 @@
+.v-table-cell-content-excluded {
+    background-color: #e0e0e0;
+}
+
+tr:HOVER .v-table-cell-content-excluded {
+    background: none;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd">
+<module>
+  <name>google-sitemap</name>
+  <display-name>Google Sitemap Forge Module</display-name>
+  <description>This module provides a google sitemap</description>
+  <class>info.magnolia.module.googlesitemap.GoogleSiteMapConfiguration</class>
+  <versionHandler>info.magnolia.module.googlesitemap.setup.GoogleSiteMapVersionHandler</versionHandler>
+  <version>${project.version}</version>
+
+  <components>
+    <id>main</id>
+    <component>
+      <type>info.magnolia.module.googlesitemap.service.SiteMapService</type>
+      <implementation>info.magnolia.module.googlesitemap.service.SiteMapService</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>info.magnolia.module.googlesitemap.service.query.QueryUtil</type>
+      <implementation>info.magnolia.module.googlesitemap.service.query.QueryUtil</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>info.magnolia.module.googlesitemap.service.SiteMapXMLUtil</type>
+      <implementation>info.magnolia.module.googlesitemap.service.SiteMapXMLUtilImpl</implementation>
+      <scope>singleton</scope>
+    </component>
+  </components>
+
+  <components>
+    <id>app</id>
+  </components>
+
+  <components>
+    <id>subapp</id>
+    <component>
+      <type>info.magnolia.module.googlesitemap.app.subapp.sitemapdetail.contentviews.pages.SitemapTreeView</type>
+      <implementation>info.magnolia.module.googlesitemap.app.subapp.sitemapdetail.contentviews.pages.SitemapTreeViewImpl</implementation>
+    </component>
+
+    <component>
+      <type>info.magnolia.module.googlesitemap.app.subapp.sitemapdetail.contentviews.virtualuris.SitemapListView</type>
+      <implementation>info.magnolia.module.googlesitemap.app.subapp.sitemapdetail.contentviews.virtualuris.SitemapListViewImpl</implementation>
+    </component>
+  </components>
+
+  <components>
+    <id>app-siteMaps-virtualURI</id>
+  </components>
+
+  <components>
+    <id>app-siteMaps-pages</id>
+  </components>
+
+  <dependencies>
+    <dependency>
+      <name>rendering</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>ui-admincentral</name>
+      <version>${magnoliaUiVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>site</name>
+      <version>1.0/*</version>
+    </dependency>
+    <dependency>
+      <name>virtual-uri</name>
+      <version>${magnoliaVersion}/*</version>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <name>magnolia</name>
+      <workspaces>
+        <workspace>googleSitemaps</workspace>
+      </workspaces>
+      <nodeTypeFile>/mgnl-nodetypes/magnolia-google-sitemap-nodetypes.xml</nodeTypeFile>
+    </repository>
+  </repositories>
+</module>

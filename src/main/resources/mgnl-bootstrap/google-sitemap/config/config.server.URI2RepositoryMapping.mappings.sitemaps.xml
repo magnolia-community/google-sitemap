@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="sitemaps" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:contentNode</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>317f0d9f-ec44-4bec-92ed-d00d70028982</sv:value>
+  </sv:property>
+  <sv:property sv:name="URIPrefix" sv:type="String">
+    <sv:value>/sitemaps/</sv:value>
+  </sv:property>
+  <sv:property sv:name="handlePrefix" sv:type="String">
+    <sv:value/>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:activationStatus" sv:type="Boolean">
+    <sv:value>false</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2006-07-28T14:34:41.439+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivated" sv:type="Date">
+    <sv:value>2013-10-30T14:28:47.070+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastActivatedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2013-10-31T16:49:45.215+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="repository" sv:type="String">
+    <sv:value>googleSitemaps</sv:value>
+  </sv:property>
+</sv:node>

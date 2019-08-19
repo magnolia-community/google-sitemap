@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="tabSites" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:contentNode</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>910df1d3-4685-445f-8b80-b76df7a8d922</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2012-05-03T09:16:43.723+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2013-10-31T15:32:25.772+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="fields">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>12569727-5a7a-4891-a026-06e07a9b808d</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2013-10-31T15:32:25.768+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="mgnl-googleSiteMapPages">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ceeb8e8f-4941-4277-832e-fad8977ca8bf</sv:value>
+      </sv:property>
+      <sv:property sv:name="buttonSelectAddLabel" sv:type="String">
+        <sv:value>field.link.select.add</sv:value>
+      </sv:property>
+      <sv:property sv:name="class" sv:type="String">
+        <sv:value>info.magnolia.ui.form.field.definition.MultiValueFieldDefinition</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>mgnl:googleSiteMapPages</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2012-05-03T09:27:51.246+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-12-13T14:24:05.155+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:node sv:name="field">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f906a37a-5f78-45a9-b1e8-e0e52b1440c9</sv:value>
+        </sv:property>
+        <sv:property sv:name="appName" sv:type="String">
+          <sv:value>pages</sv:value>
+        </sv:property>
+        <sv:property sv:name="buttonSelectNewLabel" sv:type="String">
+          <sv:value>field.link.select.new</sv:value>
+        </sv:property>
+        <sv:property sv:name="buttonSelectOtherLabel" sv:type="String">
+          <sv:value>field.link.select.another</sv:value>
+        </sv:property>
+        <sv:property sv:name="class" sv:type="String">
+          <sv:value>info.magnolia.ui.form.field.definition.LinkFieldDefinition</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2013-10-31T15:32:25.768+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="targetWorkspace" sv:type="String">
+          <sv:value>website</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
