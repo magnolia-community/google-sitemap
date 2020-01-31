@@ -174,7 +174,7 @@ public class SiteMapService {
     private NodeIterator searchSiteChildNodes(Node root) throws RepositoryException {
         NodeIterator nodes = null;
 
-        NodeTypePredicate predicate = new NodeTypePredicate(NodeTypes.Content.NAME, true);
+        NodeTypePredicate predicate = new NodeTypePredicate(NodeTypes.Page.NAME, true);
         nodes = new FilteringNodeIterator(root.getNodes(), predicate);
 
         return nodes;
