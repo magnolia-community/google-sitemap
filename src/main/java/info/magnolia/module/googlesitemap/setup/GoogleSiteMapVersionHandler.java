@@ -48,13 +48,13 @@ import info.magnolia.module.delta.CheckAndModifyPartOfPropertyValueTask;
 import info.magnolia.module.delta.CheckAndModifyPropertyValueTask;
 import info.magnolia.module.delta.CheckOrCreatePropertyTask;
 import info.magnolia.module.delta.DeltaBuilder;
+import info.magnolia.module.delta.HasPropertyDelegateTask;
 import info.magnolia.module.delta.NewPropertyTask;
 import info.magnolia.module.delta.NodeExistsDelegateTask;
 import info.magnolia.module.delta.NodeVisitorTask;
 import info.magnolia.module.delta.OrderNodeAfterTask;
 import info.magnolia.module.delta.OrderNodeBeforeTask;
 import info.magnolia.module.delta.PartialBootstrapTask;
-import info.magnolia.module.delta.PropertyExistsDelegateTask;
 import info.magnolia.module.delta.RemoveNodeTask;
 import info.magnolia.module.delta.RemovePropertiesTask;
 import info.magnolia.module.delta.RemovePropertyTask;
@@ -196,7 +196,7 @@ public class GoogleSiteMapVersionHandler extends DefaultModuleVersionHandler {
                 );
 
         register(DeltaBuilder.update("2.2.3", "")
-                .addTask(new PropertyExistsDelegateTask("Add property catalog to deactivate action if not existing", "", RepositoryConstants.CONFIG, "/modules/google-sitemap/apps/siteMaps/subApps/browser/actions/deactivate", "catalog", null,
+                .addTask(new HasPropertyDelegateTask("Add property catalog to deactivate action if not existing", "", RepositoryConstants.CONFIG, "/modules/google-sitemap/apps/siteMaps/subApps/browser/actions/deactivate", "catalog", null,
                         new NewPropertyTask("", "", RepositoryConstants.CONFIG, "/modules/google-sitemap/apps/siteMaps/subApps/browser/actions/deactivate", "catalog", "website")))
                 );
 
