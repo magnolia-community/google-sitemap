@@ -22,37 +22,17 @@
   <properties>
     <magnoliaBundleVersion>6.2</magnoliaBundleVersion>
     <magnoliaVersion>6.2</magnoliaVersion>
-    <magnoliaUiVersion>6.2</magnoliaUiVersion>
-    <siteModuleVersion>1.2</siteModuleVersion>
     <javaVersion>1.8</javaVersion>
   </properties>
 
   <dependencyManagement>
     <dependencies>
-      <!-- Importing dependency management from 3rd parties -->
       <dependency>
-        <groupId>info.magnolia.boms</groupId>
-        <artifactId>magnolia-external-dependencies</artifactId>
+        <groupId>info.magnolia.bundle</groupId>
+        <artifactId>magnolia-community-webapp</artifactId>
         <version>${magnoliaBundleVersion}</version>
         <type>pom</type>
         <scope>import</scope>
-      </dependency>
-
-      <!-- Importing dependency management from magnolia-project -->
-      <dependency>
-        <groupId>info.magnolia</groupId>
-        <artifactId>magnolia-project</artifactId>
-        <version>${magnoliaVersion}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-      
-      <dependency>
-        <groupId>info.magnolia.ui</groupId>
-        <artifactId>magnolia-ui-project</artifactId>
-        <version>${magnoliaUiVersion}</version>
-        <scope>import</scope>
-        <type>pom</type>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -67,6 +47,10 @@
       <groupId>info.magnolia</groupId>
       <artifactId>magnolia-rendering</artifactId>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.pages</groupId>
+      <artifactId>magnolia-pages-app-compatibility</artifactId>
     </dependency>
     <dependency>
       <groupId>info.magnolia</groupId>
@@ -99,7 +83,6 @@
     <dependency>
       <groupId>info.magnolia.site</groupId>
       <artifactId>magnolia-site</artifactId>
-      <version>${siteModuleVersion}</version>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>

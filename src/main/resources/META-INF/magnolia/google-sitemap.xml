@@ -54,20 +54,24 @@
 
   <dependencies>
     <dependency>
-      <name>rendering</name>
+      <name>core</name>
       <version>${magnoliaVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>rendering</name>
+      <version>*</version>
     </dependency>
     <dependency>
       <name>ui-admincentral</name>
-      <version>${magnoliaUiVersion}/*</version>
+      <version>*</version>
     </dependency>
     <dependency>
       <name>site</name>
-      <version>${siteModuleVersion}/*</version>
+      <version>*</version>
     </dependency>
     <dependency>
       <name>virtual-uri</name>
-      <version>${magnoliaVersion}/*</version>
+      <version>*</version>
     </dependency>
   </dependencies>
 
