@@ -48,8 +48,8 @@ import info.magnolia.ui.contentapp.browser.BrowserPresenter;
 import info.magnolia.ui.contentapp.browser.BrowserSubApp;
 import info.magnolia.ui.vaadin.integration.contentconnector.ContentConnector;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 

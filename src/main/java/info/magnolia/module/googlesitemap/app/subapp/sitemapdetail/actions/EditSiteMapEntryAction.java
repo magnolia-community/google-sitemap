@@ -44,8 +44,8 @@ import info.magnolia.ui.dialog.formdialog.FormDialogPresenter;
 import info.magnolia.ui.dialog.formdialog.FormDialogPresenterFactory;
 import info.magnolia.ui.form.EditorCallback;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 import com.vaadin.v7.data.Item;
 import com.vaadin.v7.data.util.BeanItem;

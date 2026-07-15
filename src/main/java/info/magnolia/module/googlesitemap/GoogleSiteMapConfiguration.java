@@ -33,7 +33,7 @@
  */
 package info.magnolia.module.googlesitemap;
 
-import javax.inject.Singleton;
+import jakarta.inject.Singleton;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.FastDateFormat;

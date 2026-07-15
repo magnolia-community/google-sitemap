@@ -36,7 +36,7 @@ package info.magnolia.module.googlesitemap.app.field;
 import info.magnolia.rendering.template.registry.TemplateDefinitionRegistry;
 import info.magnolia.ui.form.field.factory.AbstractFieldFactory;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import com.vaadin.v7.data.Item;
 import com.vaadin.v7.data.Property;

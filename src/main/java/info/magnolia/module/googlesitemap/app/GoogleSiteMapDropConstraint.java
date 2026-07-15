@@ -37,7 +37,7 @@ import info.magnolia.module.googlesitemap.SiteMapNodeTypes;
 import info.magnolia.ui.vaadin.integration.contentconnector.ContentConnector;
 import info.magnolia.ui.workbench.tree.drop.JcrContentDropConstraint;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 /**
  * Drop constraint for google site map.

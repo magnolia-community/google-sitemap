@@ -40,7 +40,7 @@ import info.magnolia.ui.api.action.ActionExecutionException;
 import info.magnolia.ui.form.EditorCallback;
 import info.magnolia.ui.form.EditorValidator;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 

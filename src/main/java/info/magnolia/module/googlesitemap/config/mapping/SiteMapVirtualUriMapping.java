@@ -48,7 +48,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Optional;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 

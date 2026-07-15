@@ -45,7 +45,7 @@ import info.magnolia.ui.workbench.list.ListView;
 
 import java.util.Iterator;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import com.vaadin.v7.data.Container;
 import com.vaadin.v7.ui.Table;

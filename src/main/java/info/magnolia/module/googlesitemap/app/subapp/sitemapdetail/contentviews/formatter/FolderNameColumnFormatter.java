@@ -40,7 +40,7 @@ import info.magnolia.ui.workbench.column.AbstractColumnFormatter;
 import info.magnolia.ui.workbench.column.definition.PropertyColumnDefinition;
 import info.magnolia.util.EscapeUtil;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 

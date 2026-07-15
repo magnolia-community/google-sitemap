@@ -35,7 +35,7 @@ package info.magnolia.module.googlesitemap.service;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 
 /**
  * Marshals sitemap from Node/Bean representation to XML.

@@ -35,7 +35,7 @@ package info.magnolia.module.googlesitemap.service.query;
 
 import info.magnolia.context.MgnlContext;
 
-import javax.inject.Singleton;
+import jakarta.inject.Singleton;
 import javax.jcr.NodeIterator;
 import javax.jcr.query.Query;
 import javax.jcr.query.QueryManager;
