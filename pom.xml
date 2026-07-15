@@ -22,7 +22,7 @@
   <properties>
     <magnoliaBundleVersion>6.4.0</magnoliaBundleVersion>
     <magnoliaVersion>6.4.0</magnoliaVersion>
-    <javaVersion>1.8</javaVersion>
+    <javaVersion>17</javaVersion>
   </properties>
 
   <dependencyManagement>
@@ -173,37 +173,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+  
   <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>animal-sniffer-maven-plugin</artifactId>
-          <version>1.27</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>animal-sniffer-maven-plugin</artifactId>
+        <configuration>
+            <skip>true</skip>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
-
-  <repositories>
-    <repository>
-      <id>magnolia.public</id>
-      <url>https://nexus.magnolia-cms.com/repository/public</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>vaadin-addons</id>
-      <url>https://maven.vaadin.com/vaadin-addons</url>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>magnolia.public</id>
-      <url>https://nexus.magnolia-cms.com/content/groups/public/</url>
-    </pluginRepository>
-  </pluginRepositories>
 </project>
