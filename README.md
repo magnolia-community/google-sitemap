@@ -17,5 +17,5 @@ Forge Documentation: __[https://wiki.magnolia-cms.com/display/WIKI/Google+Sitema
 ##### v3.0
 - __[MGNLGS-147 - Move Google Sitemap Module to Forge](https://jira.magnolia-cms.com/browse/MGNLGS-147)__
 
-##### v4.0
+##### v4.0.0
 - Migrate to Jakarta EE namespace and support Magnolia CMS >= 6.4
