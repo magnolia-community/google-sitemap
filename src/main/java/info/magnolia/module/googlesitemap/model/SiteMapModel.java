@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2012-2018 Magnolia International
+ * This file Copyright (c) 2012-2026 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
@@ -44,10 +44,10 @@ import info.magnolia.rendering.template.RenderableDefinition;
 import java.util.Collections;
 import java.util.Iterator;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

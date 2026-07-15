@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2017-2018 Magnolia International
+ * This file Copyright (c) 2012-2026 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
@@ -48,7 +48,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Optional;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 

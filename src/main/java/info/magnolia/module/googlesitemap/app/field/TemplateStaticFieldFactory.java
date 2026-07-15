@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2013-2018 Magnolia International
+ * This file Copyright (c) 2012-2026 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
@@ -36,7 +36,7 @@ package info.magnolia.module.googlesitemap.app.field;
 import info.magnolia.rendering.template.registry.TemplateDefinitionRegistry;
 import info.magnolia.ui.form.field.factory.AbstractFieldFactory;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import com.vaadin.v7.data.Item;
 import com.vaadin.v7.data.Property;

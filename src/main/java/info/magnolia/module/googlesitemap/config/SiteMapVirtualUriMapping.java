@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2013-2018 Magnolia International
+ * This file Copyright (c) 2012-2026 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
@@ -33,24 +33,22 @@
  */
 package info.magnolia.module.googlesitemap.config;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+import javax.jcr.Node;
+import javax.jcr.RepositoryException;
+
+import jakarta.inject.Inject;
+
 import info.magnolia.cms.beans.config.RegexpVirtualURIMapping;
-import info.magnolia.cms.util.ObservationUtil;
 import info.magnolia.context.SystemContext;
 import info.magnolia.jcr.predicate.AbstractPredicate;
 import info.magnolia.jcr.util.NodeUtil;
 import info.magnolia.module.googlesitemap.GoogleSiteMapConfiguration;
 import info.magnolia.module.googlesitemap.SiteMapNodeTypes;
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-
-import javax.inject.Inject;
-import javax.jcr.Node;
-import javax.jcr.RepositoryException;
-import javax.jcr.observation.EventIterator;
-import javax.jcr.observation.EventListener;
-
+import info.magnolia.observation.WorkspaceEventListenerRegistration;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -75,7 +73,7 @@ public class SiteMapVirtualUriMapping extends RegexpVirtualURIMapping {
 
     private String prefix;
 
-    private AbstractPredicate<Node> siteMapNodePredicate  = new AbstractPredicate<Node>() {
+    private AbstractPredicate<Node> siteMapNodePredicate = new AbstractPredicate<Node>() {
         @Override
         public boolean evaluateTyped(Node node) {
             try {
@@ -89,12 +87,7 @@ public class SiteMapVirtualUriMapping extends RegexpVirtualURIMapping {
     @Inject
     public SiteMapVirtualUriMapping(SystemContext context) {
         this.context = context;
-        ObservationUtil.registerChangeListener(GoogleSiteMapConfiguration.WORKSPACE, "/", true, new EventListener() {
-            @Override
-            public void onEvent(EventIterator events) {
-                reloadSiteMapNames();
-            }
-        });
+        WorkspaceEventListenerRegistration.observe(GoogleSiteMapConfiguration.WORKSPACE, "/", events -> reloadSiteMapNames());
         reloadSiteMapNames();
     }
 

@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2012-2018 Magnolia International
+ * This file Copyright (c) 2012-2026 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
@@ -35,7 +35,7 @@ package info.magnolia.module.googlesitemap.service.query;
 
 import info.magnolia.context.MgnlContext;
 
-import javax.inject.Singleton;
+import jakarta.inject.Singleton;
 import javax.jcr.NodeIterator;
 import javax.jcr.query.Query;
 import javax.jcr.query.QueryManager;

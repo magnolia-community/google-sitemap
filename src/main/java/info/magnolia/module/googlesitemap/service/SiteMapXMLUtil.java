@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2013-2018 Magnolia International
+ * This file Copyright (c) 2012-2026 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
@@ -35,7 +35,7 @@ package info.magnolia.module.googlesitemap.service;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 
 /**
  * Marshals sitemap from Node/Bean representation to XML.

@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2013-2018 Magnolia International
+ * This file Copyright (c) 2012-2026 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
@@ -36,5 +36,5 @@
     elementFormDefault = XmlNsForm.QUALIFIED)
 package info.magnolia.module.googlesitemap.bean;
 
-import javax.xml.bind.annotation.XmlNsForm;
-import javax.xml.bind.annotation.XmlSchema;
+import jakarta.xml.bind.annotation.XmlNsForm;
+import jakarta.xml.bind.annotation.XmlSchema;

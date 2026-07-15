@@ -40,10 +40,10 @@ import info.magnolia.module.googlesitemap.SiteMapNodeTypes;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlTransient;
-import javax.xml.bind.annotation.XmlType;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlTransient;
+import jakarta.xml.bind.annotation.XmlType;
 
 /**
  * Simple POJO containing relevant informations for the display.
